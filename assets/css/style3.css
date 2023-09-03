@@ -1,0 +1,13 @@
+.passwordContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.selectContainer {
+  display: flex;
+  justify-content: center;
+}
+select {
+  width: 5rem;
+  margin-left: 1rem;
+}

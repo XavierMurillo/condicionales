@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.stickerContainer {
+  display: grid;
+  grid-template-areas: "s1 s2 s3";
+  background-color: rgb(159, 159, 159);
+  border-radius: 20px;
+  width: 80vw;
+}
+.sticker1Container {
+  grid-area: s1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.sticker2Container {
+  grid-area: s2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.sticker3Container {
+  grid-area: s3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.sticker1 {
+  width: 100px;
+}
+.sticker2 {
+  width: 150px;
+}
+.sticker3 {
+  width: 120px;
+}
+.s1Number {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.s2Number {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.s3Number {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.titulo {
+  text-align: center;
+  font-size: larger;
+  font-weight: 600;
+}
+.resultadoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.numStickers {
+  font-size: larger;
+}
